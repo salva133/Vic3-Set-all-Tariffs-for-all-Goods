@@ -7,7 +7,7 @@
 			is_world_market_hub = yes
 		}
 		NOT = {
-			has_modifier = modifier_cooldown_bulk_set_tariffs
+			has_variable = cooldown_bulk_set_tariffs_var
 		}
 	}
 	when_taken = {
