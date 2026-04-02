@@ -33,3 +33,5 @@ You can set tariffs ranging from maximum protectionism down to completely free t
 ---
 
 *Made for players who want to efficiently manage large or complex economies.*
+
+*If you want to collaborate, be my guest: [GitHub Repository](https://github.com/salva133/Vic3-Set-all-Tariffs-for-all-Goods)*
