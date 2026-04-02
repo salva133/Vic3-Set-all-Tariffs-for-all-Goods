@@ -8,6 +8,10 @@ set_all_tariffs.1 = { # DISABLED
 	desc   = set_all_tariffs.1.dd
 	flavor = set_all_tariffs.1.ff
 
+	event_image = {
+		video = unspecific_signed_contract
+	}
+
 	trigger = {} # Gets triggered by decision_set_all_tariffs
 
 	immediate = {}
@@ -40,6 +44,10 @@ set_all_tariffs.2 = {
 	desc   = set_all_tariffs.2.dd
 	flavor = set_all_tariffs.2.ff
 
+	event_image = {
+		video = unspecific_signed_contract
+	}
+
 	trigger = {} # Gets triggered by set_all_tariffs.1
 
 	immediate = {}
@@ -47,6 +55,10 @@ set_all_tariffs.2 = {
 	option = {
 		name = set_all_tariffs.2.a
 		set_all_goods_to_no_tariffs = yes
+		set_variable = {
+			name = cooldown_bulk_set_tariffs_var
+			months = 2
+		}
 	}
 	option = {
 		name = set_all_tariffs.2.b
@@ -56,6 +68,10 @@ set_all_tariffs.2 = {
 			}
 		}
 		set_all_goods_to_low_tariffs = yes
+		set_variable = {
+			name = cooldown_bulk_set_tariffs_var
+			months = 2
+		}
 	}
 	option = {
 		name = set_all_tariffs.2.c
@@ -65,6 +81,10 @@ set_all_tariffs.2 = {
 			}
 		}
 		set_all_goods_to_high_tariffs = yes
+		set_variable = {
+			name = cooldown_bulk_set_tariffs_var
+			months = 2
+		}
 	}
 	option = {
 		name = set_all_tariffs.2.d
@@ -74,16 +94,14 @@ set_all_tariffs.2 = {
 			}
 		}
 		set_all_goods_to_max_tariffs = yes
+		set_variable = {
+			name = cooldown_bulk_set_tariffs_var
+			months = 2
+		}
 	}
 	option = {
 		name = set_all_tariffs.2.e
 		custom_tooltip = satfag_nothing_ever_happenes_tt
-	}
-	after = {
-		add_modifier = {
-			name = modifier_cooldown_bulk_set_tariffs
-			months = 2
-		}
 	}
 }
 
@@ -95,12 +113,20 @@ set_all_tariffs.3 = { # DISABLED
 	desc   = set_all_tariffs.3.dd
 	flavor = set_all_tariffs.3.ff
 
+	event_image = {
+		video = unspecific_signed_contract
+	}
+
 	trigger = {} # Gets triggered by set_all_tariffs.1
 
 	immediate = {}
 
 	option = {
 		name = set_all_tariffs.3.a
+		set_variable = {
+			name = cooldown_bulk_set_tariffs_var
+			months = 2
+		}
 	}
 	option = {
 		name = set_all_tariffs.3.b
@@ -108,6 +134,10 @@ set_all_tariffs.3 = { # DISABLED
 			NOT = {
 				has_law = law_type:law_free_trade
 			}
+		}
+		set_variable = {
+			name = cooldown_bulk_set_tariffs_var
+			months = 2
 		}
 	}
 	option = {
@@ -117,6 +147,10 @@ set_all_tariffs.3 = { # DISABLED
 				has_law = law_type:law_free_trade
 			}
 		}
+		set_variable = {
+			name = cooldown_bulk_set_tariffs_var
+			months = 2
+		}
 	}
 	option = {
 		name = set_all_tariffs.3.d
@@ -125,15 +159,13 @@ set_all_tariffs.3 = { # DISABLED
 				has_law = law_type:law_free_trade
 			}
 		}
+		set_variable = {
+			name = cooldown_bulk_set_tariffs_var
+			months = 2
+		}
 	}
 	option = {
 		name = set_all_tariffs.3.e
 		custom_tooltip = satfag_nothing_ever_happenes_tt
-	}
-	after = {
-		add_modifier = {
-			name = modifier_cooldown_bulk_set_tariffs
-			months = 2
-		}
 	}
 }
