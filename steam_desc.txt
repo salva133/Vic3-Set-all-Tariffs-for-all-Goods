@@ -48,5 +48,3 @@ you do that? Do you look like Panama or something?
 
 [i]Made for players who want to efficiently manage large or complex
 economies.[/i]
-
-[i]If you want to collaborate, be my guest: [url=https://github.com/salva133/Vic3-Set-all-Tariffs-for-all-Goods]GitHub Repository[/url][/i]
