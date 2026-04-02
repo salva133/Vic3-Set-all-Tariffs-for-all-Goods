@@ -4,7 +4,7 @@
   "version" : "1.0.0",
   "supported_game_version" : "1.12.5",
   "short_description" : "",
-  "tags" : [],
+  "tags" : [ "Utilities", "Gameplay", "1.12" ],
   "relationships" : [],
   "game_custom_data" : {
     "multiplayer_synchronized" : true
