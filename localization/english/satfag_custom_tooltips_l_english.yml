@@ -1,0 +1,7 @@
+﻿l_english:
+  set_tariffs_to_no_tariffs_tt:   "[THIS.GetGoods.GetName] will be set to $no_tariffs_or_subventions$"
+  set_tariffs_to_low_tariffs_tt:  "[THIS.GetGoods.GetName] will be set to $low_tariffs$"
+  set_tariffs_to_high_tariffs_tt: "[THIS.GetGoods.GetName] will be set to $high_tariffs$"
+  set_tariffs_to_max_tariffs_tt:  "[THIS.GetGoods.GetName] will be set to $max_tariffs$"
+
+  satfag_nothing_ever_happenes_tt: "Nothing happenes. Like, ever."

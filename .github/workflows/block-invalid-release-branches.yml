@@ -1,0 +1,12 @@
+﻿name: Block Invalid Release Branches
+
+on:
+  pull_request:
+    branches:
+      - master
+
+jobs:
+  block-invalid-release-pr:
+    uses: salva133/My-Workflows/.github/workflows/block-invalid-release-branches.yml@d13105a79ae640613704286529470ca59be68a13
+    with:
+      head_ref: ${{ github.head_ref }}

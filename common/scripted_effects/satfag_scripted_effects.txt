@@ -1,0 +1,703 @@
+﻿set_tariffs_to_no_tariffs = {
+	root = {
+		set_import_tariff_level = {
+			goods = prev
+			level = no_tariffs_or_subventions
+		}
+		set_export_tariff_level = {
+			goods = prev
+			level = no_tariffs_or_subventions
+		}
+	}
+	custom_tooltip = set_tariffs_to_no_tariffs_tt
+}
+
+set_tariffs_to_low_tariffs = {
+	root = {
+		set_import_tariff_level = {
+			goods = prev
+			level = low_tariffs
+		}
+		set_export_tariff_level = {
+			goods = prev
+			level = low_tariffs
+		}
+	}
+	custom_tooltip = set_tariffs_to_low_tariffs_tt
+}
+
+set_tariffs_to_high_tariffs = {
+	root = {
+		set_import_tariff_level = {
+			goods = prev
+			level = high_tariffs
+		}
+		set_export_tariff_level = {
+			goods = prev
+			level = high_tariffs
+		}
+	}
+	custom_tooltip = set_tariffs_to_high_tariffs_tt
+}
+
+set_tariffs_to_max_tariffs = {
+	root = {
+		set_import_tariff_level = {
+			goods = prev
+			level = max_tariffs
+		}
+		set_export_tariff_level = {
+			goods = prev
+			level = max_tariffs
+		}
+	}
+	custom_tooltip = set_tariffs_to_max_tariffs_tt
+}
+
+set_all_goods_to_no_tariffs = {
+	g:ammunition = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:small_arms = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:artillery = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:tanks = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:aeroplanes = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:manowars = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:ironclads = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:grain = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:fish = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:fabric = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:wood = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:groceries = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:clothes = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:furniture = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:paper = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:services = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:transportation = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:electricity = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:merchant_marine = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:clippers = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:steamers = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:silk = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:dye = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:sulfur = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:coal = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:iron = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:lead = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:hardwood = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:rubber = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:oil = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:engines = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:steel = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:glass = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:fertilizer = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:tools = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:explosives = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:porcelain = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:meat = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:fruit = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:liquor = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:wine = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:tea = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:coffee = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:sugar = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:tobacco = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:opium = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:automobiles = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:telephones = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:radios = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:luxury_clothes = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:luxury_furniture = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:gold = {
+		set_tariffs_to_no_tariffs = yes
+	}
+	g:fine_art = {
+		set_tariffs_to_no_tariffs = yes
+	}
+}
+
+set_all_goods_to_low_tariffs = {
+	g:ammunition = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:small_arms = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:artillery = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:tanks = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:aeroplanes = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:manowars = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:ironclads = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:grain = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:fish = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:fabric = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:wood = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:groceries = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:clothes = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:furniture = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:paper = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:services = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:transportation = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:electricity = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:merchant_marine = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:clippers = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:steamers = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:silk = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:dye = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:sulfur = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:coal = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:iron = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:lead = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:hardwood = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:rubber = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:oil = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:engines = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:steel = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:glass = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:fertilizer = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:tools = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:explosives = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:porcelain = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:meat = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:fruit = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:liquor = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:wine = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:tea = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:coffee = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:sugar = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:tobacco = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:opium = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:automobiles = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:telephones = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:radios = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:luxury_clothes = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:luxury_furniture = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:gold = {
+		set_tariffs_to_low_tariffs = yes
+	}
+	g:fine_art = {
+		set_tariffs_to_low_tariffs = yes
+	}
+}
+
+set_all_goods_to_high_tariffs = {
+	g:ammunition = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:small_arms = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:artillery = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:tanks = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:aeroplanes = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:manowars = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:ironclads = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:grain = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:fish = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:fabric = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:wood = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:groceries = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:clothes = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:furniture = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:paper = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:services = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:transportation = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:electricity = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:merchant_marine = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:clippers = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:steamers = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:silk = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:dye = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:sulfur = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:coal = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:iron = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:lead = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:hardwood = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:rubber = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:oil = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:engines = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:steel = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:glass = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:fertilizer = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:tools = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:explosives = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:porcelain = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:meat = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:fruit = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:liquor = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:wine = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:tea = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:coffee = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:sugar = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:tobacco = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:opium = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:automobiles = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:telephones = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:radios = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:luxury_clothes = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:luxury_furniture = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:gold = {
+		set_tariffs_to_high_tariffs = yes
+	}
+	g:fine_art = {
+		set_tariffs_to_high_tariffs = yes
+	}
+}
+
+set_all_goods_to_max_tariffs = {
+	g:ammunition = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:small_arms = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:artillery = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:tanks = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:aeroplanes = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:manowars = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:ironclads = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:grain = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:fish = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:fabric = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:wood = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:groceries = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:clothes = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:furniture = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:paper = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:services = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:transportation = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:electricity = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:merchant_marine = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:clippers = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:steamers = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:silk = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:dye = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:sulfur = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:coal = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:iron = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:lead = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:hardwood = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:rubber = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:oil = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:engines = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:steel = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:glass = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:fertilizer = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:tools = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:explosives = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:porcelain = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:meat = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:fruit = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:liquor = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:wine = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:tea = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:coffee = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:sugar = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:tobacco = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:opium = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:automobiles = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:telephones = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:radios = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:luxury_clothes = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:luxury_furniture = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:gold = {
+		set_tariffs_to_max_tariffs = yes
+	}
+	g:fine_art = {
+		set_tariffs_to_max_tariffs = yes
+	}
+}

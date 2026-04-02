@@ -1,0 +1,3 @@
+﻿modifier_cooldown_bulk_set_tariffs = {
+	icon = gfx/interface/market_view/filter_staple_goods.dds
+}

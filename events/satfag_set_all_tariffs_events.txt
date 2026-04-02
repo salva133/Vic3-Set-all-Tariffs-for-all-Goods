@@ -1,0 +1,139 @@
+﻿namespace = set_all_tariffs
+
+set_all_tariffs.1 = { # DISABLED
+	type = country_event
+	placement = root
+
+	title  = set_all_tariffs.1.tt
+	desc   = set_all_tariffs.1.dd
+	flavor = set_all_tariffs.1.ff
+
+	trigger = {} # Gets triggered by decision_set_all_tariffs
+
+	immediate = {}
+
+	option = {
+		name = set_all_tariffs.1.a
+		trigger_event = {
+			id = set_all_tariffs.2
+			popup = yes
+		}
+	}
+	option = {
+		name = set_all_tariffs.1.b
+		trigger_event = {
+			id = set_all_tariffs.3
+			popup = yes
+		}
+	}
+	option = {
+		name = set_all_tariffs.1.c
+		custom_tooltip = satfag_nothing_ever_happenes_tt
+	}
+}
+
+set_all_tariffs.2 = {
+	type = country_event
+	placement = root
+	
+	title  = set_all_tariffs.2.tt
+	desc   = set_all_tariffs.2.dd
+	flavor = set_all_tariffs.2.ff
+
+	trigger = {} # Gets triggered by set_all_tariffs.1
+
+	immediate = {}
+
+	option = {
+		name = set_all_tariffs.2.a
+		set_all_goods_to_no_tariffs = yes
+	}
+	option = {
+		name = set_all_tariffs.2.b
+		trigger = {
+			NOT = {
+				has_law = law_type:law_free_trade
+			}
+		}
+		set_all_goods_to_low_tariffs = yes
+	}
+	option = {
+		name = set_all_tariffs.2.c
+		trigger = {
+			NOT = {
+				has_law = law_type:law_free_trade
+			}
+		}
+		set_all_goods_to_high_tariffs = yes
+	}
+	option = {
+		name = set_all_tariffs.2.d
+		trigger = {
+			NOT = {
+				has_law = law_type:law_free_trade
+			}
+		}
+		set_all_goods_to_max_tariffs = yes
+	}
+	option = {
+		name = set_all_tariffs.2.e
+		custom_tooltip = satfag_nothing_ever_happenes_tt
+	}
+	after = {
+		add_modifier = {
+			name = modifier_cooldown_bulk_set_tariffs
+			months = 2
+		}
+	}
+}
+
+set_all_tariffs.3 = { # DISABLED
+	type = country_event
+	placement = root
+	
+	title  = set_all_tariffs.3.tt
+	desc   = set_all_tariffs.3.dd
+	flavor = set_all_tariffs.3.ff
+
+	trigger = {} # Gets triggered by set_all_tariffs.1
+
+	immediate = {}
+
+	option = {
+		name = set_all_tariffs.3.a
+	}
+	option = {
+		name = set_all_tariffs.3.b
+		trigger = {
+			NOT = {
+				has_law = law_type:law_free_trade
+			}
+		}
+	}
+	option = {
+		name = set_all_tariffs.3.c
+		trigger = {
+			NOT = {
+				has_law = law_type:law_free_trade
+			}
+		}
+	}
+	option = {
+		name = set_all_tariffs.3.d
+		trigger = {
+			NOT = {
+				has_law = law_type:law_free_trade
+			}
+		}
+	}
+	option = {
+		name = set_all_tariffs.3.e
+		custom_tooltip = satfag_nothing_ever_happenes_tt
+	}
+	after = {
+		add_modifier = {
+			name = modifier_cooldown_bulk_set_tariffs
+			months = 2
+		}
+	}
+}

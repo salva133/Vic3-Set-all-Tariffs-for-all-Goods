@@ -1,0 +1,3 @@
+﻿l_english:
+  decision_set_all_tariffs: "Set Tariffs"
+  decision_set_all_tariffs_desc: "Only affects tariff setting that are not already in cooldown"
