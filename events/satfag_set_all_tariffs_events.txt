@@ -39,7 +39,7 @@ set_all_tariffs.1 = { # DISABLED
 set_all_tariffs.2 = {
 	type = country_event
 	placement = root
-	
+
 	title  = set_all_tariffs.2.tt
 	desc   = set_all_tariffs.2.dd
 	flavor = set_all_tariffs.2.ff
@@ -108,7 +108,7 @@ set_all_tariffs.2 = {
 set_all_tariffs.3 = { # DISABLED
 	type = country_event
 	placement = root
-	
+
 	title  = set_all_tariffs.3.tt
 	desc   = set_all_tariffs.3.dd
 	flavor = set_all_tariffs.3.ff
