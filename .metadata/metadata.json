@@ -2,7 +2,7 @@
   "name": "Set all Tariffs for all Goods",
   "id": "",
   "version": "1.0.4",
-  "supported_game_version": "1.12.5",
+  "supported_game_version": "1.13.*",
   "short_description": "",
   "tags": [
     "Utilities",
