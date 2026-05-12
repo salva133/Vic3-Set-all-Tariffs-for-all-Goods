@@ -4,4 +4,4 @@
   set_tariffs_to_high_tariffs_tt: "[THIS.GetGoods.GetName] will be set to $high_tariffs$"
   set_tariffs_to_max_tariffs_tt:  "[THIS.GetGoods.GetName] will be set to $max_tariffs$"
 
-  satfag_nothing_ever_happenes_tt: "Nothing happenes. Like, ever."
+  satfag_nothing_ever_happenes_tt: "Nothing happens. Like, ever."
