@@ -14,6 +14,7 @@ No more clicking through every individual good in the market interface!
   - Low tariffs
   - High tariffs
   - Maximum tariffs
+- **Goods that currently have a subvention are skipped**, so your existing subsidy plans are not overwritten
 - 2-month cooldown after each use
 - Clean, lightweight event interface with tooltips
 
