@@ -1,13 +1,9 @@
 [h1]Set all Tariffs for all Goods[/h1]
 
-[b]A quality-of-life mod for Victoria 3[/b] that lets market leaders quickly
-bulk-set tariff levels across every good in their market.
+[b]A quality-of-life mod for Victoria 3[/b] that lets market leaders quickly bulk-set tariff levels across every good in their market.
 
 [h2]Overview[/h2]
-This mod adds a decision called [b]"Set Tariffs"[/b] which triggers an event
-chain. As the leader of a market (i.e. you own a world market hub), you can
-instantly set import and export tariff levels for [b]all vanilla goods[/b] at
-once.
+This mod adds a decision called [b]"Set Tariffs"[/b] which triggers an event chain. As the leader of a market (i.e. you own a world market hub), you can instantly set import and export tariff levels for [b]all vanilla goods[/b] at once.
 
 No more clicking through every individual good in the market interface!
 
@@ -19,6 +15,7 @@ No more clicking through every individual good in the market interface!
   [*]Low tariffs
   [*]High tariffs
   [*]Maximum tariffs
+[*][b]Goods that currently have a subvention are skipped[/b], so your existing subsidy plans are not overwritten
 [*]2-month cooldown after each use
 [*]Clean, lightweight event interface with tooltips
 [/list]
@@ -34,17 +31,12 @@ No more clicking through every individual good in the market interface!
 [h2]Compatibility[/h2]
 [list]
 [*]Only affects vanilla goods
-[*]Should be compatible with most other mods (as long as they don't completely
-overhaul the goods or tariff system)
+[*]Should be compatible with most other mods (as long as they don't completely overhaul the goods or tariff system)
 [/list]
 
 [h2]Note from the Author[/h2]
-You can set tariffs ranging from maximum protectionism down to completely free
-trade. Anything beyond that (e.g. subsidizing both imports [i]and[/i] exports
-of the same good) makes very little economic sense. I mean, why on earth would
-you do that? Do you look like Panama or something?
+You can set tariffs ranging from maximum protectionism down to completely free trade. Anything beyond that (e.g. subsidizing both imports [i]and[/i] exports of the same good) makes very little economic sense. I mean, why on earth would you do that? Do you look like Panama or something?
 
 [hr]
 
-[i]Made for players who want to efficiently manage large or complex
-economies.[/i]
+[i]Made for players who want to efficiently manage large or complex economies.[/i]
