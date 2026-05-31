@@ -3,9 +3,9 @@
 		is_player = yes
 	}
 	possible = {
-		any_scope_state = {
-			is_world_market_hub = yes
-		}
+		# Only shown when the country actually controls its own market tariffs.
+		# Customs union juniors cannot, but subjects outside a customs union can.
+		is_junior_in_customs_union = no
 		NOT = {
 			has_variable = cooldown_bulk_set_tariffs_var
 		}
