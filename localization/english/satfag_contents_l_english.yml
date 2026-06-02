@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
   set_all_tariffs.2.tt: "$decision_set_all_tariffs$"
   set_all_tariffs.2.dd: ""
   set_all_tariffs.2.ff: ""
