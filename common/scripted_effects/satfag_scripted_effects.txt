@@ -1,4 +1,4 @@
-# Sets import and export tariff for the goods currently in scope to $level$,
+﻿# Sets import and export tariff for the goods currently in scope to $level$,
 # unless the country is already running any subvention on that good. Existing
 # subsidy plans set up by the player are preserved.
 # Called from country scope as: g:<good> = { set_tariffs_to_level = { level = <level> } }
