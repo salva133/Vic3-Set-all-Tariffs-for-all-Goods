@@ -1,21 +1,27 @@
-﻿# Sets import and export tariff for the goods currently in scope to $level$,
-# unless the country is already running any subvention on that good. Existing
-# subsidy plans set up by the player are preserved.
-# Called from country scope as: g:<good> = { set_tariffs_to_level = { level = <level> } }
+﻿# Sets the import and export tariff for the market good currently in scope to
+# $level$, unless the country (root) is already running a subvention on that
+# good. Existing subsidy plans set up by the player are preserved.
+# Expects a market_goods entry in scope (e.g. an element of every_market_goods),
+# so the custom tooltip's [THIS.GetGoods...] resolves to the underlying good.
 set_tariffs_to_level = {
+	# Resolve the good behind this market entry once, so it can be referenced
+	# from the country (root) scope below and stays stable across the block.
+	goods = {
+		save_scope_as = satfag_tariff_good
+	}
 	if = {
 		limit = {
 			NOT = {
-				root = { has_any_subventions_on = prev }
+				root = { has_any_subventions_on = scope:satfag_tariff_good }
 			}
 		}
 		root = {
 			set_import_tariff_level = {
-				goods = prev
+				goods = scope:satfag_tariff_good
 				level = $level$
 			}
 			set_export_tariff_level = {
-				goods = prev
+				goods = scope:satfag_tariff_good
 				level = $level$
 			}
 		}
@@ -23,61 +29,19 @@ set_tariffs_to_level = {
 	}
 }
 
-# Applies the given tariff level to every vanilla good. Modded goods are not
-# touched (the mod intentionally lists the vanilla set; see README). Goods that
+# Applies the given tariff level to every tradeable good in the country's market,
+# discovered dynamically through every_market_goods instead of a hardcoded list.
+# This automatically covers goods added by other mods (any good that is present
+# in the market), keeping the mod robust across goods overhauls. Goods that
 # currently have a subvention are skipped by the inner helper.
+# Called from country scope as: set_all_goods_to_level = { level = <level> }
 set_all_goods_to_level = {
-	g:ammunition       = { set_tariffs_to_level = { level = $level$ } }
-	g:small_arms       = { set_tariffs_to_level = { level = $level$ } }
-	g:artillery        = { set_tariffs_to_level = { level = $level$ } }
-	g:tanks            = { set_tariffs_to_level = { level = $level$ } }
-	g:aeroplanes       = { set_tariffs_to_level = { level = $level$ } }
-	g:manowars         = { set_tariffs_to_level = { level = $level$ } }
-	g:ironclads        = { set_tariffs_to_level = { level = $level$ } }
-	g:grain            = { set_tariffs_to_level = { level = $level$ } }
-	g:fish             = { set_tariffs_to_level = { level = $level$ } }
-	g:fabric           = { set_tariffs_to_level = { level = $level$ } }
-	g:wood             = { set_tariffs_to_level = { level = $level$ } }
-	g:groceries        = { set_tariffs_to_level = { level = $level$ } }
-	g:clothes          = { set_tariffs_to_level = { level = $level$ } }
-	g:furniture        = { set_tariffs_to_level = { level = $level$ } }
-	g:paper            = { set_tariffs_to_level = { level = $level$ } }
-	g:services         = { set_tariffs_to_level = { level = $level$ } }
-	g:transportation   = { set_tariffs_to_level = { level = $level$ } }
-	g:electricity      = { set_tariffs_to_level = { level = $level$ } }
-	g:merchant_marine  = { set_tariffs_to_level = { level = $level$ } }
-	g:clippers         = { set_tariffs_to_level = { level = $level$ } }
-	g:steamers         = { set_tariffs_to_level = { level = $level$ } }
-	g:silk             = { set_tariffs_to_level = { level = $level$ } }
-	g:dye              = { set_tariffs_to_level = { level = $level$ } }
-	g:sulfur           = { set_tariffs_to_level = { level = $level$ } }
-	g:coal             = { set_tariffs_to_level = { level = $level$ } }
-	g:iron             = { set_tariffs_to_level = { level = $level$ } }
-	g:lead             = { set_tariffs_to_level = { level = $level$ } }
-	g:hardwood         = { set_tariffs_to_level = { level = $level$ } }
-	g:rubber           = { set_tariffs_to_level = { level = $level$ } }
-	g:oil              = { set_tariffs_to_level = { level = $level$ } }
-	g:engines          = { set_tariffs_to_level = { level = $level$ } }
-	g:steel            = { set_tariffs_to_level = { level = $level$ } }
-	g:glass            = { set_tariffs_to_level = { level = $level$ } }
-	g:fertilizer       = { set_tariffs_to_level = { level = $level$ } }
-	g:tools            = { set_tariffs_to_level = { level = $level$ } }
-	g:explosives       = { set_tariffs_to_level = { level = $level$ } }
-	g:porcelain        = { set_tariffs_to_level = { level = $level$ } }
-	g:meat             = { set_tariffs_to_level = { level = $level$ } }
-	g:fruit            = { set_tariffs_to_level = { level = $level$ } }
-	g:liquor           = { set_tariffs_to_level = { level = $level$ } }
-	g:wine             = { set_tariffs_to_level = { level = $level$ } }
-	g:tea              = { set_tariffs_to_level = { level = $level$ } }
-	g:coffee           = { set_tariffs_to_level = { level = $level$ } }
-	g:sugar            = { set_tariffs_to_level = { level = $level$ } }
-	g:tobacco          = { set_tariffs_to_level = { level = $level$ } }
-	g:opium            = { set_tariffs_to_level = { level = $level$ } }
-	g:automobiles      = { set_tariffs_to_level = { level = $level$ } }
-	g:telephones       = { set_tariffs_to_level = { level = $level$ } }
-	g:radios           = { set_tariffs_to_level = { level = $level$ } }
-	g:luxury_clothes   = { set_tariffs_to_level = { level = $level$ } }
-	g:luxury_furniture = { set_tariffs_to_level = { level = $level$ } }
-	g:gold             = { set_tariffs_to_level = { level = $level$ } }
-	g:fine_art         = { set_tariffs_to_level = { level = $level$ } }
+	market ?= {
+		every_market_goods = {
+			limit = {
+				is_tradeable = yes
+			}
+			set_tariffs_to_level = { level = $level$ }
+		}
+	}
 }

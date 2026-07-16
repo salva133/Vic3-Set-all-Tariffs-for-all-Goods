@@ -3,7 +3,7 @@
 [b]A quality-of-life mod for Victoria 3[/b] that lets market leaders quickly bulk-set tariff levels across every good in their market.
 
 [h2]Overview[/h2]
-This mod adds a decision called [b]"Set Tariffs"[/b] which triggers an event chain. As the leader of a market (i.e. you own a world market hub), you can instantly set import and export tariff levels for [b]all vanilla goods[/b] at once.
+This mod adds a decision called [b]"Set Tariffs"[/b] which triggers an event chain. As the leader of a market (i.e. you own a world market hub), you can instantly set import and export tariff levels for [b]every good traded in your market[/b] at once — including goods added by other mods.
 
 No more clicking through every individual good in the market interface!
 
@@ -30,8 +30,8 @@ No more clicking through every individual good in the market interface!
 
 [h2]Compatibility[/h2]
 [list]
-[*]Only affects vanilla goods
-[*]Should be compatible with most other mods (as long as they don't completely overhaul the goods or tariff system)
+[*]Goods are detected [b]dynamically from your market[/b], so [b]modded goods are covered automatically[/b] — there is no hardcoded goods list
+[*]Should be compatible with most other mods (as long as they don't completely overhaul the tariff system)
 [/list]
 
 [h2]Note from the Author[/h2]
