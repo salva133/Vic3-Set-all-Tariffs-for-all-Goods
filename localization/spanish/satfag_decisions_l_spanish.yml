@@ -1,0 +1,3 @@
+﻿l_spanish:
+  decision_set_all_tariffs: "Fijar aranceles"
+  decision_set_all_tariffs_desc: "Solo afecta a los aranceles que no estén ya en periodo de espera"

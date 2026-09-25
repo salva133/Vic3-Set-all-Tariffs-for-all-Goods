@@ -1,0 +1,9 @@
+﻿l_korean:
+  set_all_tariffs.2.tt: "$decision_set_all_tariffs$"
+  set_all_tariffs.2.dd: ""
+  set_all_tariffs.2.ff: ""
+  set_all_tariffs.2.a:  "모두 #bold $no_tariffs_or_subventions$#!(으)로 설정"
+  set_all_tariffs.2.b:  "모두 #bold $low_tariffs$#!(으)로 설정"
+  set_all_tariffs.2.c:  "모두 #bold $high_tariffs$#!(으)로 설정"
+  set_all_tariffs.2.d:  "모두 #bold $max_tariffs$#!(으)로 설정"
+  set_all_tariffs.2.e:  "마음을 정했다"

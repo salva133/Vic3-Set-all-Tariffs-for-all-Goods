@@ -1,0 +1,8 @@
+﻿l_korean:
+  set_tariffs_to_no_tariffs_or_subventions_tt: "[THIS.GetGoods.GetName]에 $no_tariffs_or_subventions$(이)가 설정됩니다"
+  set_tariffs_to_low_tariffs_tt:               "[THIS.GetGoods.GetName]에 $low_tariffs$(이)가 설정됩니다"
+  set_tariffs_to_high_tariffs_tt:              "[THIS.GetGoods.GetName]에 $high_tariffs$(이)가 설정됩니다"
+  set_tariffs_to_max_tariffs_tt:               "[THIS.GetGoods.GetName]에 $max_tariffs$(이)가 설정됩니다"
+
+  satfag_subsidies_preserved_tt:   "현재 지원금이 설정된 상품은 건너뛰므로, 기존 보조금 계획은 유지됩니다."
+  satfag_nothing_ever_happenes_tt: "아무 일도 일어나지 않습니다. 그러니까, 절대로요."

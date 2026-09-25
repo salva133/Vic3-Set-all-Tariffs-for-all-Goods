@@ -1,0 +1,3 @@
+﻿l_japanese:
+  decision_set_all_tariffs: "関税を設定"
+  decision_set_all_tariffs_desc: "まだクールダウン中でない関税設定にのみ影響します"

@@ -1,0 +1,3 @@
+﻿l_braz_por:
+  decision_set_all_tariffs: "Definir Tarifas"
+  decision_set_all_tariffs_desc: "Afeta apenas as configurações de tarifa que ainda não estão em período de espera"

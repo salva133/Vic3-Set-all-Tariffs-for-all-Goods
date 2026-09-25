@@ -1,0 +1,9 @@
+﻿l_spanish:
+  set_all_tariffs.2.tt: "$decision_set_all_tariffs$"
+  set_all_tariffs.2.dd: ""
+  set_all_tariffs.2.ff: ""
+  set_all_tariffs.2.a:  "Fijar todos en #bold $no_tariffs_or_subventions$#!"
+  set_all_tariffs.2.b:  "Fijar todos en #bold $low_tariffs$#!"
+  set_all_tariffs.2.c:  "Fijar todos en #bold $high_tariffs$#!"
+  set_all_tariffs.2.d:  "Fijar todos en #bold $max_tariffs$#!"
+  set_all_tariffs.2.e:  "Ya me he decidido"

@@ -1,0 +1,8 @@
+﻿l_simp_chinese:
+  set_tariffs_to_no_tariffs_or_subventions_tt: "[THIS.GetGoods.GetName]将被设为$no_tariffs_or_subventions$"
+  set_tariffs_to_low_tariffs_tt:               "[THIS.GetGoods.GetName]将被设为$low_tariffs$"
+  set_tariffs_to_high_tariffs_tt:              "[THIS.GetGoods.GetName]将被设为$high_tariffs$"
+  set_tariffs_to_max_tariffs_tt:               "[THIS.GetGoods.GetName]将被设为$max_tariffs$"
+
+  satfag_subsidies_preserved_tt:   "当前享有补助金的商品会被跳过，因此现有的补贴计划得以保留。"
+  satfag_nothing_ever_happenes_tt: "什么都不会发生。永远不会。"

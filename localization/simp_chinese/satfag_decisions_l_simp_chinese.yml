@@ -1,0 +1,3 @@
+﻿l_simp_chinese:
+  decision_set_all_tariffs: "设定关税"
+  decision_set_all_tariffs_desc: "仅影响尚未处于冷却中的关税设定"

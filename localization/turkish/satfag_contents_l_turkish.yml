@@ -1,0 +1,9 @@
+﻿l_turkish:
+  set_all_tariffs.2.tt: "$decision_set_all_tariffs$"
+  set_all_tariffs.2.dd: ""
+  set_all_tariffs.2.ff: ""
+  set_all_tariffs.2.a:  "Hepsini #bold $no_tariffs_or_subventions$#! olarak ayarla"
+  set_all_tariffs.2.b:  "Hepsini #bold $low_tariffs$#! olarak ayarla"
+  set_all_tariffs.2.c:  "Hepsini #bold $high_tariffs$#! olarak ayarla"
+  set_all_tariffs.2.d:  "Hepsini #bold $max_tariffs$#! olarak ayarla"
+  set_all_tariffs.2.e:  "Kararımı verdim"

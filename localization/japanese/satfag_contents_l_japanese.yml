@@ -1,0 +1,9 @@
+﻿l_japanese:
+  set_all_tariffs.2.tt: "$decision_set_all_tariffs$"
+  set_all_tariffs.2.dd: ""
+  set_all_tariffs.2.ff: ""
+  set_all_tariffs.2.a:  "すべてを#bold $no_tariffs_or_subventions$#!に設定する"
+  set_all_tariffs.2.b:  "すべてを#bold $low_tariffs$#!に設定する"
+  set_all_tariffs.2.c:  "すべてを#bold $high_tariffs$#!に設定する"
+  set_all_tariffs.2.d:  "すべてを#bold $max_tariffs$#!に設定する"
+  set_all_tariffs.2.e:  "考えが決まった"

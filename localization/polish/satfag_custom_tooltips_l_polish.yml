@@ -1,0 +1,8 @@
+﻿l_polish:
+  set_tariffs_to_no_tariffs_or_subventions_tt: "Dla towaru [THIS.GetGoods.GetName] zostanie ustawione: $no_tariffs_or_subventions$"
+  set_tariffs_to_low_tariffs_tt:               "Dla towaru [THIS.GetGoods.GetName] zostanie ustawione: $low_tariffs$"
+  set_tariffs_to_high_tariffs_tt:              "Dla towaru [THIS.GetGoods.GetName] zostanie ustawione: $high_tariffs$"
+  set_tariffs_to_max_tariffs_tt:               "Dla towaru [THIS.GetGoods.GetName] zostanie ustawione: $max_tariffs$"
+
+  satfag_subsidies_preserved_tt:   "Towary, które obecnie mają subwencję, zostają pominięte, więc istniejące plany subwencji pozostają bez zmian."
+  satfag_nothing_ever_happenes_tt: "Nic się nie dzieje. Tak w ogóle, nigdy."

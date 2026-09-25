@@ -1,0 +1,3 @@
+﻿l_french:
+  decision_set_all_tariffs: "Fixer les droits de douane"
+  decision_set_all_tariffs_desc: "N’affecte que les droits de douane qui ne sont pas déjà en période de récupération"

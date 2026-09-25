@@ -1,0 +1,3 @@
+﻿l_polish:
+  decision_set_all_tariffs: "Ustaw cła"
+  decision_set_all_tariffs_desc: "Dotyczy tylko ustawień ceł, dla których nie trwa obecnie czas odnowienia"

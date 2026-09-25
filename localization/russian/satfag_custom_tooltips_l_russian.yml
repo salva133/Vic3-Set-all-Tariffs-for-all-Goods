@@ -1,0 +1,8 @@
+﻿l_russian:
+  set_tariffs_to_no_tariffs_or_subventions_tt: "Для товара [THIS.GetGoods.GetName] будет установлено: $no_tariffs_or_subventions$"
+  set_tariffs_to_low_tariffs_tt:               "Для товара [THIS.GetGoods.GetName] будет установлено: $low_tariffs$"
+  set_tariffs_to_high_tariffs_tt:              "Для товара [THIS.GetGoods.GetName] будет установлено: $high_tariffs$"
+  set_tariffs_to_max_tariffs_tt:               "Для товара [THIS.GetGoods.GetName] будет установлено: $max_tariffs$"
+
+  satfag_subsidies_preserved_tt:   "Товары, на которые сейчас выплачивается субвенция, пропускаются, так что существующие планы субсидий сохраняются."
+  satfag_nothing_ever_happenes_tt: "Ничего не происходит. Вообще никогда."
