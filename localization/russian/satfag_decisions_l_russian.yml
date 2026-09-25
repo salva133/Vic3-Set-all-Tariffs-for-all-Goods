@@ -1,0 +1,3 @@
+﻿l_russian:
+  decision_set_all_tariffs: "Установить пошлины"
+  decision_set_all_tariffs_desc: "Действует только на пошлины, которые сейчас не находятся в периоде ожидания"

@@ -1,0 +1,8 @@
+﻿l_spanish:
+  set_tariffs_to_no_tariffs_or_subventions_tt: "[THIS.GetGoods.GetName] pasará a $no_tariffs_or_subventions$"
+  set_tariffs_to_low_tariffs_tt:               "[THIS.GetGoods.GetName] pasará a $low_tariffs$"
+  set_tariffs_to_high_tariffs_tt:              "[THIS.GetGoods.GetName] pasará a $high_tariffs$"
+  set_tariffs_to_max_tariffs_tt:               "[THIS.GetGoods.GetName] pasará a $max_tariffs$"
+
+  satfag_subsidies_preserved_tt:   "Se omiten los bienes que tienen actualmente una subvención, de modo que se conservan los planes de subsidios existentes."
+  satfag_nothing_ever_happenes_tt: "No pasa nada. Nunca. En serio."

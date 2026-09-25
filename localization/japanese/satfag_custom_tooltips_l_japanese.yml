@@ -1,0 +1,8 @@
+﻿l_japanese:
+  set_tariffs_to_no_tariffs_or_subventions_tt: "[THIS.GetGoods.GetName]は$no_tariffs_or_subventions$に設定されます"
+  set_tariffs_to_low_tariffs_tt:               "[THIS.GetGoods.GetName]は$low_tariffs$に設定されます"
+  set_tariffs_to_high_tariffs_tt:              "[THIS.GetGoods.GetName]は$high_tariffs$に設定されます"
+  set_tariffs_to_max_tariffs_tt:               "[THIS.GetGoods.GetName]は$max_tariffs$に設定されます"
+
+  satfag_subsidies_preserved_tt:   "現在助成金が設定されている商品は対象外となるため、既存の助成計画は維持されます。"
+  satfag_nothing_ever_happenes_tt: "何も起こりません。本当に、何ひとつ。"

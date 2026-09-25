@@ -1,0 +1,3 @@
+﻿l_german:
+  decision_set_all_tariffs: "Zölle festlegen"
+  decision_set_all_tariffs_desc: "Betrifft nur Zolleinstellungen, die sich nicht bereits in der Abklingzeit befinden"

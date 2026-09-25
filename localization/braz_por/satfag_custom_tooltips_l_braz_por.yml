@@ -1,0 +1,8 @@
+﻿l_braz_por:
+  set_tariffs_to_no_tariffs_or_subventions_tt: "A tarifa de [THIS.GetGoods.GetName] será definida como $no_tariffs_or_subventions$"
+  set_tariffs_to_low_tariffs_tt:               "A tarifa de [THIS.GetGoods.GetName] será definida como $low_tariffs$"
+  set_tariffs_to_high_tariffs_tt:              "A tarifa de [THIS.GetGoods.GetName] será definida como $high_tariffs$"
+  set_tariffs_to_max_tariffs_tt:               "A tarifa de [THIS.GetGoods.GetName] será definida como $max_tariffs$"
+
+  satfag_subsidies_preserved_tt:   "Mercadorias que atualmente têm uma subvenção são ignoradas, então os planos de subsídio existentes são preservados."
+  satfag_nothing_ever_happenes_tt: "Nada acontece. Tipo, nunca."
